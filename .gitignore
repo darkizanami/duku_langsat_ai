@@ -1,0 +1,22 @@
+# Virtual environment folder
+venv_dl_new/
+venv*/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large model files to EXCLUDE from Git (Ini yang penting)
+model/duku_langsat_model.h5
+yolov8n.pt
+# Tambahkan baris ini jika Anda punya model YOLO kustom yang besar
+# model/*.pt
+
+# Other common ignored files
+.DS_Store
+.env
+*.log
+nohup.out
