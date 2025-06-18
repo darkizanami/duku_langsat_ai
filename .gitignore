@@ -9,14 +9,13 @@ __pycache__/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Large model files to EXCLUDE from Git (Ini yang penting)
-model/duku_langsat_model.h5
-yolov8n.pt
-# Tambahkan baris ini jika Anda punya model YOLO kustom yang besar
-# model/*.pt
+# IMPORTANT: If you want to push model files, they must be tracked by Git LFS.
+# Otherwise, they must be ignored here.
+# model/duku_langsat_model.h5
+# yolov8n.pt
 
 # Other common ignored files
 .DS_Store
 .env
 *.log
-nohup.out
+nohub.out
